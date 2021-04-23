@@ -5,9 +5,10 @@ import "./App.css";
 import { getShowRoomData, addUserActivity } from "./graphql";
 
 function App() {
-  const [data, dataSet] = useState<any>(null); // dump data from server
+  const [data, dataSet] = useState<any>(null); //set dump data from server no need for type
 
-  const handleClick = useCallback((event: any) => { // click event not need type
+  const handleClick = useCallback((event: any) => {
+    // click event not need type
     const timestamp = event.timeStamp.toString();
     const page = event.target.textContent || "1";
     const entity_id = "1";
@@ -17,7 +18,8 @@ function App() {
     addUserActivity(timestamp, page, entity_id, event_type, board_id);
   }, []);
 
-  const handleMouseOver = useCallback((event: any) => { // click event not need type
+  const handleMouseOver = useCallback((event: any) => {
+    // click event not need type
     const timestamp = event.timeStamp.toString();
     const page = event.currentTarget.location.host;
     const entity_id = "1";
