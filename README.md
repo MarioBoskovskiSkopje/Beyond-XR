@@ -15,4 +15,5 @@
 
 ##### React is pretty awesome for single page aplication comibned with material ui for the style.GraphQl helped me to not go hard on the backend with the requests (instead of rest api) multi data post and get in single request.MongoDB i was using because here i dont need relations in the database and is pretty fast. And NodeJs on the backend pretty simple to create a server.I was using typescript in whole project because that helped me for data maping and some types, to bypassed some featured bugs.
 
-##### This project you can run by npm run start in the server folder and in the client folder also npm run start. (also you need local mongo database connection)
+
+## This project you can run by npm run start in the server folder and in the client folder also npm run start. (also you need local mongo database connection)
