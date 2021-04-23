@@ -2,7 +2,10 @@ Basic User-Activity APP
 
 Technologies used:
 
-1/React JS (typescript) 2.Node JS (typescript) 3.MonogDB (database) 4.GraphQ (data-query)
+1.React JS (typescript) 
+2.Node JS (typescript) 
+3.MonogDB (database) 
+4.GraphQ (data-query)
 
 App Description:
 
